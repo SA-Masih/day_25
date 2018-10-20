@@ -1,0 +1,20 @@
+@import "normalize";
+@import "box";
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #f6f6f6;
+}
+.container {
+    background: #FFF;
+    width: 100%;
+    height: -937px;
+    max-width: 1401px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+

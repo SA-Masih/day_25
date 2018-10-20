@@ -1,0 +1,72 @@
+.box {
+    padding: 2%;
+    margin-left: 5%;
+    height: -721;
+    width: 1218px;
+    &__header {
+        font-size: 40px;
+        font-family: 'Times New Roman';
+        margin-bottom: -4px;
+    }
+    &__flex {
+        display: flex;
+        line-height: 34px;
+    }
+    &__paragraph {
+        margin-left: 2%;
+        font-size: 19px;
+        font-family: 'lato';
+        color: #7a7a7a;
+    }
+    &__img {
+        height: 80px;
+        margin-top: 2.0%;
+    }
+    &__bellowing {
+        margin-top: -10;
+        font-size: 19px;
+        font-family: 'lato';
+        line-height: 34px;
+        color: #7a7a7a;
+        margin-bottom: 2%;
+    }
+    &__travellers {
+        font-size: 19px;
+        font-family: 'lato';
+        line-height: 34px;
+        color: #7a7a7a;
+        margin-bottom: 2%;
+    }
+    &__country {
+        font-size: 19px;
+        font-family: 'lato';
+        line-height: 34px;
+        color: #7a7a7a;
+    }
+    &__engineer {
+        font-size: 34px;
+        font-family: 'lato';
+        color: #7a7a7a;
+    }
+    &__button {
+        color: #fff;
+        padding: 14px;
+        width: 191px;
+        border-color: #eaa258;
+        outline: none;
+        background: #eaa258;
+        display: block;
+    }
+    &__button:hover {
+        background: #FFF;
+        color: #eaa258;
+    }
+    &__s {
+        margin-bottom: -1%;
+        display: block;
+        margin-top: -2%;
+        font-size: 60px;
+        display: inline-block;
+        padding: 1%;
+    }
+}
