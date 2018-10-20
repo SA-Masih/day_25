@@ -1,3 +1,3 @@
-# foliac
+# DAY__25
 
-https://sa-masih.github.io/foliac/
+https://sa-masih.github.io/day_25/
