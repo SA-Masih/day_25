@@ -49,17 +49,16 @@
         color: #7a7a7a;
     }
     &__button {
-        color: #fff;
+        color: #eaa258;
         padding: 14px;
         width: 191px;
-        border-color: #eaa258;
+        border: 2px solid #eaa258;
         outline: none;
-        background: #eaa258;
-        display: block;
+        background: #fff;
     }
     &__button:hover {
-        background: #FFF;
-        color: #eaa258;
+        color: #555555;
+        border: 2px solid #555555;
     }
     &__s {
         margin-bottom: -1%;

@@ -416,16 +416,15 @@ th {
     font-family: 'lato';
     color: #7a7a7a; }
   .box__button {
-    color: #fff;
+    color: #eaa258;
     padding: 14px;
     width: 191px;
-    border-color: #eaa258;
+    border: 2px solid #eaa258;
     outline: none;
-    background: #eaa258;
-    display: block; }
+    background: #fff; }
   .box__button:hover {
-    background: #FFF;
-    color: #eaa258; }
+    color: #555555;
+    border: 2px solid #555555; }
   .box__s {
     margin-bottom: -1%;
     display: block;
@@ -449,4 +448,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 6%;
-  margin-bottom: 6%; }
+  margin-bottom: 6%;
+  -webkit-box-shadow: 1px 1px 50px 0px #171717;
+  box-shadow: 1px 1px 50px 0px #171717; }
