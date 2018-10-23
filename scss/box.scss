@@ -1,71 +1,57 @@
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../webfont/playfairdisplay-regular-webfont.woff2') format('woff2'), url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .box {
-    padding: 2%;
-    margin-left: 5%;
-    height: -721;
-    width: 1218px;
-    &__header {
-        font-size: 40px;
-        font-family: 'Times New Roman';
-        margin-bottom: -4px;
-    }
-    &__flex {
-        display: flex;
-        line-height: 34px;
-    }
-    &__paragraph {
-        margin-left: 2%;
-        font-size: 19px;
-        font-family: 'lato';
-        color: #7a7a7a;
-    }
-    &__img {
-        height: 80px;
-        margin-top: 2.0%;
-    }
-    &__bellowing {
-        margin-top: -10;
-        font-size: 19px;
-        font-family: 'lato';
-        line-height: 34px;
-        color: #7a7a7a;
-        margin-bottom: 2%;
-    }
-    &__travellers {
-        font-size: 19px;
-        font-family: 'lato';
-        line-height: 34px;
-        color: #7a7a7a;
-        margin-bottom: 2%;
-    }
-    &__country {
-        font-size: 19px;
-        font-family: 'lato';
-        line-height: 34px;
-        color: #7a7a7a;
-    }
-    &__engineer {
-        font-size: 34px;
-        font-family: 'lato';
-        color: #7a7a7a;
-    }
+    padding: 100px 120px;
+    background: #FFF;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 68px rgba(0, 0, 0, 0.1);
     &__button {
         color: #eaa258;
-        padding: 14px;
-        width: 191px;
+        padding: 14px; // width: 191px;
+        padding: 20px 60px;
         border: 2px solid #eaa258;
         outline: none;
         background: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
     }
     &__button:hover {
         color: #555555;
         border: 2px solid #555555;
     }
-    &__s {
-        margin-bottom: -1%;
-        display: block;
-        margin-top: -2%;
-        font-size: 60px;
-        display: inline-block;
-        padding: 1%;
+    p {
+        line-height: 34px;
+        font-size: 18px;
+        font-family: 'lato';
+        color: #171717;
     }
+    & p:nth-child(2):first-letter {
+        font-size: 110px;
+        float: left;
+        letter-spacing: -5px;
+        font-family: 'playfair_displayregular';
+        padding-right: 20px;
+        line-height: 80px;
+        margin-top: 3px;
+    }
+}
+blockquote {
+    margin-left: 0;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    &:before {
+        content: '"';
+        font-style: italic;
+        font-size: 18px;
+        padding-right: 10px;
+    }
+}
+h3 {
+    font-size: 40px;
+    font-family: 'playfair_displayregular';
 }
